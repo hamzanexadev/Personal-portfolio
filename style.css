@@ -99,12 +99,17 @@ body {
   position: relative;
   right: 72vw;
   }
-  .about-hero,.h2{
+  .about-hero h2{
     width: 90vw;
     text-align: center;  
+    position: relative;
+    right: 15px;
+  
+   
   }
   .about-hero,.text-muted{
-    /* text-align: start; */
+    width: 100vw;
+    text-align: center;
   }
 }
 .pic img {
@@ -119,7 +124,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20vw;
+    margin-left: 21vw;
     margin-top: 3vh;
   }
 }
@@ -156,12 +161,24 @@ body {
 .hed2 {
   text-align: center;
 }
-
+@media only screen and (max-width: 600px){
+  .box2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
 .fa-solid {
   font-size: 2vw;
   color: var(--accent);
   margin-top: 3.5vh;
   margin-left: 11.5vw;
+}
+@media only screen and (max-width: 600px){
+  .fa-solid{
+    font-size: 8vw;
+    margin-left: 42vw;
+  }
 }
 .sub-hed {
   text-align: center;
@@ -175,6 +192,13 @@ body {
   font-size: 16px;
   color: var(--muted);
 }
+@media only screen and (max-width: 600px){
+  .para{
+    width: 80vw;
+    margin-left: 8vw;
+
+  }
+}
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s ease-in-out;
@@ -182,6 +206,15 @@ body {
 .box3 {
   display: flex;
   justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 600px){
+  .box3{
+    display: flex;
+    flex-direction: column; 
+  }
+
 }
 .icon {
   margin-left: 18.5vw;
@@ -197,9 +230,18 @@ body {
   font-size: 16px;
   color: var(--muted);
 }
+/* projects */
 .box4 {
   margin-top: 5vh;
 }
+@media only screen and (max-width: 600px){
+  .box4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+/* contact */
 .box5 {
   display: flex;
   justify-content: center;
@@ -209,6 +251,11 @@ body {
 }
 .mb-3 {
   width: 40vw;
+}
+@media only screen and (max-width: 600px){
+  .mb-3{
+    width: 80vw;
+  }
 }
 .but1 {
   padding: 10px 10vw;
