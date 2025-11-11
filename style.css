@@ -178,6 +178,24 @@ body {
     flex-direction: column;
   }
 }
+#cube2,
+#cube3,
+#cube4 {
+  width: 27rem;
+  height: 30vh;
+  border-radius: 16px;
+  margin-top: 4vh;
+}
+@media only screen and (max-width: 600px) {
+  #cube2,
+  #cube3,
+  #cube4 {
+    width: 24rem;
+    height: 27vh;
+    margin-left: 5vw;
+  }
+}
+
 .fa-solid {
   font-size: 2vw;
   color: var(--accent);
@@ -187,7 +205,7 @@ body {
 @media only screen and (max-width: 600px) {
   .fa-solid {
     font-size: 8vw;
-    margin-left: 42vw;
+    margin-left: 35vw;
   }
 }
 .sub-hed {
@@ -205,7 +223,7 @@ body {
 @media only screen and (max-width: 600px) {
   .para {
     width: 80vw;
-    margin-left: 8vw;
+    
   }
 }
 .card:hover {
@@ -231,8 +249,9 @@ body {
 }
 @media only screen and (max-width: 600px) {
   #cube {
-    width: 27rem;
-    height: 30vh;
+    width: 24rem;
+    height: 27vh;
+    margin-left: 5vw;
   }
 }
 #cube1 {
@@ -243,8 +262,9 @@ body {
 }
 @media only screen and (max-width: 600px) {
   #cube1 {
-    width: 27rem;
-    height: 30vh;
+    width: 24rem;
+    height: 27vh;
+    margin-left: 5vw;
   }
 }
 
@@ -252,8 +272,8 @@ body {
   margin-left: 18.5vw;
 }
 @media only screen and (max-width: 600px) {
-  .icon{
-    margin-left: 41.5vw;
+  .icon {
+    margin-left: 35vw;
   }
 }
 
