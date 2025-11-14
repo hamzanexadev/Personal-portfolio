@@ -179,21 +179,14 @@ body {
     flex-direction: column;
   }
 }
-#cube2,
-#cube3,
-#cube4 {
-  width: 27rem;
-  height: 30vh;
-  border-radius: 16px;
-  margin-top: 4vh;
-}
+
 @media only screen and (max-width: 600px) {
   #cube2,
   #cube3,
   #cube4 {
     width: 20rem;
     height: 27vh;
-    margin-left: 4vw;
+    margin-left: 6vw;
   }
 }
 
@@ -252,7 +245,7 @@ body {
   #cube {
     width: 20rem;
     height: 27vh;
-    margin-left: 4vw;
+    margin-left: 6vw;
   }
 }
 #cube1 {
@@ -265,7 +258,7 @@ body {
   #cube1 {
     width: 20rem;
     height: 27vh;
-    margin-left: 3vw;
+    margin-left: 6vw;
   }
 }
 
