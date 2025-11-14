@@ -11,7 +11,7 @@
   --accent: #245cea;
 }
 body {
-  background-color: var(--bg);
+  background-color: var(--bg); 
 }
 /* Navbar  */
 .navbar {
@@ -20,7 +20,8 @@ body {
   z-index: 10;
 }
 .container-fluid {
-  background-color: var(--card);
+  background-color:var(--card);
+  
 }
 .navbar-brand {
   font-family: poppins;
@@ -192,7 +193,7 @@ body {
   #cube4 {
     width: 20rem;
     height: 27vh;
-    margin-left: 3vw;
+    margin-left: 4vw;
   }
 }
 
@@ -251,7 +252,7 @@ body {
   #cube {
     width: 20rem;
     height: 27vh;
-    margin-left: 3vw;
+    margin-left: 4vw;
   }
 }
 #cube1 {
