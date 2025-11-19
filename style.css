@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-html{
+html {
   scroll-padding-top: 25vh;
   scroll-behavior: smooth;
 }
@@ -15,7 +15,7 @@ html{
   --accent: #245cea;
 }
 body {
-  background-color: var(--bg); 
+  background-color: var(--bg);
 }
 /* Navbar  */
 .navbar {
@@ -24,8 +24,7 @@ body {
   z-index: 10;
 }
 .container-fluid {
-  background-color:var(--card);
-  
+  background-color: var(--card);
 }
 .navbar-brand {
   font-family: poppins;
@@ -183,6 +182,13 @@ body {
     flex-direction: column;
   }
 }
+#cube2,
+#cube3,
+#cube4 {
+  width: 20rem;
+  height: 27vh;
+  margin-left: 6vw;
+}
 
 @media only screen and (max-width: 600px) {
   #cube2,
@@ -221,7 +227,6 @@ body {
 @media only screen and (max-width: 600px) {
   .para {
     width: 80vw;
-    
   }
 }
 .card:hover {
